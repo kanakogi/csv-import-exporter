@@ -22,8 +22,8 @@ $post_taxonomies['nav_menu'],
 $post_taxonomies['link_category'],
 $post_taxonomies['post_format']);
 
-if ($csviae_options = get_option('csviae_options')) {
-    $csviae_post_type = $csviae_options['post_type'];
+if ($wce_options = get_option('wce_options')) {
+    $csviae_post_type = $wce_options['post_type'];
 }
 ?>
 <script type="text/javascript">

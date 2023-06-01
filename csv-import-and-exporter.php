@@ -23,7 +23,7 @@ define('CSVIAE_PLUGIN_URL', untrailingslashit(plugins_url('', __FILE__)));
 
 class CSV_Import_and_Exporter extends CSV_Import_and_Exporter_Base
 {
-    protected $textdomain = 'wp-csv-exporter';
+    protected $textdomain = 'csv-import-and-exporter';
 
     public function __construct()
     {
